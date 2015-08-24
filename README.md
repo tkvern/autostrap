@@ -101,3 +101,6 @@ hr{margin-top: 5px;margin-bottom: 5px;border: 0;border-top: 1px dashed #eee;}
 
 ##规范
 <body>标签内都所以元素都大小不超过320px即可，如果有特殊动画超过320px，将body的overflow属性设为hidden即可
+
+##下载
+个人博客传送门：[largesoft.org](http://largesoft.org)

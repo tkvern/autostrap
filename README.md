@@ -1,14 +1,14 @@
 # 基于原生JS移动端响应式解决方案——AUTOSTRAP
 
-##介绍
+## 介绍
 就目前移动端而言，已有比较成熟都响应式框架，类似于Bootstrap、AmazeUI、Skeljs。但是对于普通开发者来说，为了满足快速开发的需求去学习和使用这些框架的时间成本是比较高的。所以，本着轻量、快速开发的原则，为大家提供了基于原生JS的移动动端解决方案，希望能在交流、使用中继续优化AutoStrap。
 
-##原理
+## 原理
 目前我们熟悉的开源前端框架都是栅格化布局，通过mediaQuery，在不同分辨率加载不同的css到达响应式的效果。同时还提供了诸多的JS组件供开发者使用。而AutoStrap是使用viewport，以iPhone4分辨率为模板，根据可视宽高调节缩放比例实现。具体内容下面的代码会给出。
 
-##代码
+## 代码
 
-###autostrap.js
+### autostrap.js
 ```js
 /*!
  * AutoStrap v1.0.0 (http://largesoft.org)
@@ -41,7 +41,7 @@ function renderPage() {
 renderPage();
 ```
 
-###autostrap.css
+### autostrap.css
 ```css
 /*!
  * AutoStrap v1.0.0 (http://largesoft.org)
@@ -86,21 +86,21 @@ table {border-collapse: collapse;border-spacing: 0;}
 hr{margin-top: 5px;margin-bottom: 5px;border: 0;border-top: 1px dashed #eee;}
 ```
 
-###html页面引入代码
+### html页面引入代码
 ```html
   <meta id="MobileViewport" name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no" servergenerated="true">
 ```
 
 
-##使用
+## 使用
 1、页面引入autostrap.js、autostrap.css文件
 2、在<head>标签里面加入以下代码
 ```html
 <meta id=”MobileViewport” name=”viewport” content=”width=320, initial-scale=1, maximum-scale=1, user-scalable=no” servergenerated=”true”>
 ```
 
-##规范
+## 规范
 <body>标签内都所以元素都大小不超过320px即可，如果有特殊动画超过320px，将body的overflow属性设为hidden即可
 
-##下载
+## 下载
 个人博客传送门：[largesoft.org](http://largesoft.org)
